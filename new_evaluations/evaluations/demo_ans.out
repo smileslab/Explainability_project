@@ -1,0 +1,84 @@
+2021-12-29 17:28:49.958356: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.2
+/home/b/bfrink/.local/lib/python3.7/site-packages/gensim/similarities/__init__.py:15: UserWarning: The gensim.similarities.levenshtein submodule is disabled, because the optional Levenshtein package <https://pypi.org/project/python-Levenshtein/> is unavailable. Install Levenhstein (e.g. `pip install python-Levenshtein`) to suppress this warning.
+  warnings.warn(msg)
+WARNING:tensorflow:From /cm/shared/apps/tensorflow2-py37-cuda10.2-gcc/2.2.0/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+  0%|          | 0/271 [00:00<?, ?it/s]  0%|          | 1/271 [00:01<06:02,  1.34s/it]/cm/shared/apps/ml-pythondeps-py37-cuda10.2-gcc/lib/python3.7/site-packages/nltk/translate/bleu_score.py:516: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/cm/shared/apps/ml-pythondeps-py37-cuda10.2-gcc/lib/python3.7/site-packages/nltk/translate/bleu_score.py:516: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/cm/shared/apps/ml-pythondeps-py37-cuda10.2-gcc/lib/python3.7/site-packages/nltk/translate/bleu_score.py:516: UserWarning: 
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+  4%|▍         | 12/271 [00:01<04:04,  1.06it/s] 12%|█▏        | 32/271 [00:01<02:38,  1.51it/s] 20%|█▉        | 54/271 [00:01<01:40,  2.15it/s] 28%|██▊       | 77/271 [00:01<01:03,  3.06it/s] 37%|███▋      | 101/271 [00:01<00:39,  4.35it/s] 45%|████▍     | 121/271 [00:01<00:24,  6.15it/s] 54%|█████▎    | 145/271 [00:02<00:14,  8.69it/s] 62%|██████▏   | 167/271 [00:02<00:08, 12.20it/s] 70%|███████   | 190/271 [00:02<00:04, 17.04it/s] 79%|███████▊  | 213/271 [00:02<00:02, 23.58it/s] 87%|████████▋ | 236/271 [00:02<00:01, 32.23it/s] 96%|█████████▌| 259/271 [00:02<00:00, 43.42it/s]100%|██████████| 271/271 [00:02<00:00, 103.31it/s]
+  0%|          | 0/271 [00:00<?, ?it/s]  7%|▋         | 20/271 [00:00<00:01, 193.26it/s] 16%|█▌        | 43/271 [00:00<00:01, 202.15it/s] 24%|██▍       | 65/271 [00:00<00:00, 206.16it/s] 31%|███       | 84/271 [00:00<00:00, 201.01it/s] 38%|███▊      | 104/271 [00:00<00:00, 199.92it/s] 47%|████▋     | 128/271 [00:00<00:00, 203.71it/s] 54%|█████▍    | 147/271 [00:00<00:00, 194.83it/s] 62%|██████▏   | 169/271 [00:00<00:00, 198.44it/s] 70%|███████   | 190/271 [00:00<00:00, 190.39it/s] 77%|███████▋  | 210/271 [00:01<00:00, 191.92it/s] 86%|████████▋ | 234/271 [00:01<00:00, 203.90it/s] 94%|█████████▍| 255/271 [00:01<00:00, 186.69it/s]100%|██████████| 271/271 [00:01<00:00, 196.22it/s]
+  0%|          | 0/271 [00:00<?, ?it/s]  8%|▊         | 22/271 [00:00<00:01, 214.29it/s] 16%|█▌        | 44/271 [00:00<00:01, 214.71it/s] 25%|██▌       | 68/271 [00:00<00:00, 216.78it/s] 34%|███▎      | 91/271 [00:00<00:00, 218.65it/s] 42%|████▏     | 114/271 [00:00<00:00, 220.51it/s] 51%|█████     | 138/271 [00:00<00:00, 224.54it/s] 59%|█████▉    | 160/271 [00:00<00:00, 221.50it/s] 67%|██████▋   | 182/271 [00:00<00:00, 220.76it/s] 76%|███████▌  | 205/271 [00:00<00:00, 223.21it/s] 84%|████████▍ | 227/271 [00:01<00:00, 221.27it/s] 92%|█████████▏| 249/271 [00:01<00:00, 219.98it/s]100%|██████████| 271/271 [00:01<00:00, 221.77it/s]
+  0%|          | 0/271 [00:00<?, ?it/s]  8%|▊         | 21/271 [00:00<00:01, 208.02it/s] 16%|█▌        | 44/271 [00:00<00:01, 211.60it/s] 25%|██▍       | 67/271 [00:00<00:00, 212.92it/s] 32%|███▏      | 88/271 [00:00<00:00, 211.56it/s] 39%|███▉      | 107/271 [00:00<00:00, 201.80it/s] 48%|████▊     | 131/271 [00:00<00:00, 210.85it/s] 56%|█████▌    | 151/271 [00:00<00:00, 206.43it/s] 63%|██████▎   | 171/271 [00:00<00:00, 194.39it/s] 71%|███████   | 193/271 [00:00<00:00, 199.89it/s] 79%|███████▉  | 215/271 [00:01<00:00, 204.87it/s] 87%|████████▋ | 237/271 [00:01<00:00, 207.43it/s] 96%|█████████▌| 259/271 [00:01<00:00, 210.18it/s]100%|██████████| 271/271 [00:01<00:00, 208.64it/s]
+  0%|          | 0/271 [00:00<?, ?it/s]  7%|▋         | 20/271 [00:00<00:01, 199.01it/s] 15%|█▌        | 41/271 [00:00<00:01, 201.30it/s] 23%|██▎       | 62/271 [00:00<00:01, 202.42it/s] 30%|███       | 82/271 [00:00<00:00, 200.86it/s] 37%|███▋      | 100/271 [00:00<00:00, 191.09it/s] 45%|████▍     | 121/271 [00:00<00:00, 195.40it/s] 52%|█████▏    | 142/271 [00:00<00:00, 199.11it/s] 60%|█████▉    | 162/271 [00:00<00:00, 198.72it/s] 67%|██████▋   | 182/271 [00:00<00:00, 195.97it/s] 75%|███████▍  | 202/271 [00:01<00:00, 196.66it/s] 82%|████████▏ | 223/271 [00:01<00:00, 199.06it/s] 90%|████████▉ | 243/271 [00:01<00:00, 193.99it/s] 97%|█████████▋| 263/271 [00:01<00:00, 191.06it/s]100%|██████████| 271/271 [00:01<00:00, 197.02it/s]
+  0%|          | 0/271 [00:00<?, ?it/s]  8%|▊         | 22/271 [00:00<00:01, 219.96it/s] 16%|█▌        | 43/271 [00:00<00:01, 214.09it/s] 24%|██▍       | 65/271 [00:00<00:00, 215.32it/s] 32%|███▏      | 86/271 [00:00<00:00, 210.95it/s] 39%|███▉      | 107/271 [00:00<00:00, 208.65it/s] 48%|████▊     | 129/271 [00:00<00:00, 210.21it/s] 55%|█████▍    | 149/271 [00:00<00:00, 206.08it/s] 63%|██████▎   | 171/271 [00:00<00:00, 206.27it/s] 71%|███████   | 192/271 [00:00<00:00, 206.37it/s] 78%|███████▊  | 212/271 [00:01<00:00, 199.61it/s] 86%|████████▋ | 234/271 [00:01<00:00, 202.48it/s] 94%|█████████▍| 255/271 [00:01<00:00, 201.45it/s]100%|██████████| 271/271 [00:01<00:00, 206.27it/s]
+============= /scratch/users/bfrink/new_dtuner/dtuner/output_frink_answer5_-1_DataTuner_No_FC_No_FS/2021-12-29_16-29-13/generated.json =============
+Average BLEU-4 for all generated from scratch: 0.7134
+Average METEOR for all generated from scratch: 0.6932
+Average BLEU-1 for all generated from scratch: 0.87
+Average BLEU-2 for all generated from scratch: 0.7847
+Average BLEU-3 for all generated from scratch: 0.7293
+
+
+
+============= /scratch/users/bfrink/new_dtuner/dtuner/output_frink_answer5_0_DataTuner_No_FC_No_FS/2021-12-29_16-29-22/generated.json =============
+Average BLEU-4 for all generated from scratch: 0.425
+Average METEOR for all generated from scratch: 0.4312
+Average BLEU-1 for all generated from scratch: 0.8601
+Average BLEU-2 for all generated from scratch: 0.683
+Average BLEU-3 for all generated from scratch: 0.5831
+
+
+
+============= /scratch/users/bfrink/new_dtuner/dtuner/output_frink_answer5_1_DataTuner_No_FC_No_FS/2021-12-29_16-29-34/generated.json =============
+Average BLEU-4 for all generated from scratch: 0.6751
+Average METEOR for all generated from scratch: 0.6546
+Average BLEU-1 for all generated from scratch: 0.871
+Average BLEU-2 for all generated from scratch: 0.7735
+Average BLEU-3 for all generated from scratch: 0.7113
+
+
+
+============= /scratch/users/bfrink/new_dtuner/dtuner/output_frink_answer5_2_DataTuner_No_FC_No_FS/2021-12-29_16-29-45/generated.json =============
+Average BLEU-4 for all generated from scratch: 0.6804
+Average METEOR for all generated from scratch: 0.657
+Average BLEU-1 for all generated from scratch: 0.8798
+Average BLEU-2 for all generated from scratch: 0.7824
+Average BLEU-3 for all generated from scratch: 0.7211
+
+
+
+============= /scratch/users/bfrink/new_dtuner/dtuner/output_frink_answer5_3_DataTuner_No_FC_No_FS/2021-12-29_16-30-01/generated.json =============
+Average BLEU-4 for all generated from scratch: 0.6411
+Average METEOR for all generated from scratch: 0.6495
+Average BLEU-1 for all generated from scratch: 0.8442
+Average BLEU-2 for all generated from scratch: 0.7552
+Average BLEU-3 for all generated from scratch: 0.6971
+
+
+
+============= /scratch/users/bfrink/new_dtuner/dtuner/output_frink_answer5_4_DataTuner_No_FC_No_FS/2021-12-29_16-30-14/generated.json =============
+Average BLEU-4 for all generated from scratch: 0.6487
+Average METEOR for all generated from scratch: 0.6187
+Average BLEU-1 for all generated from scratch: 0.8703
+Average BLEU-2 for all generated from scratch: 0.768
+Average BLEU-3 for all generated from scratch: 0.7005
+
+
+
