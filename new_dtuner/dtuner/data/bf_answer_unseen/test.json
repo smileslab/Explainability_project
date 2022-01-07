@@ -1,0 +1,138 @@
+[
+  {
+    "mr": "inform(model[SVM])",
+    "ref": [
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ SVM ]> )"
+  },
+  {
+    "mr": "inform(model[CNN])",
+    "ref": [
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ CNN ]> )"
+  },
+  {
+    "mr": "inform(model[SVM], classification[speaker_id], speaker_id[2])",
+    "ref": [
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ SVM ], <classification> classification: [ speaker_id ], <speaker_id> speaker id: [ 2 ]> )"
+  },
+  {
+    "mr": "inform(model[SVM], classification[speaker_id], speaker_id[2], interpreter[shap], feature[MSRCC-21])",
+    "ref": [
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ SVM ], <classification> classification: [ speaker_id ], <speaker_id> speaker id: [ 2 ], <interpreter> interpreter: [ shap ], <feature> feature: [ MSRCC-21 ]> )"
+  },
+  {
+    "mr": "inform(model[CNN], classification[bonafide], interpreter[SHAP], feature[MFCC-23])",
+    "ref": [
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ CNN ], <classification> classification: [ bonafide ], <interpreter> interpreter: [ SHAP ], <feature> feature: [ MFCC-23 ]> )"
+  },
+  {
+    "mr": "inform(model[CNN], classification[spoofed], interpreter[SHAP], feature[MFCC-13])",
+    "ref": [
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ CNN ], <classification> classification: [ spoofed ], <interpreter> interpreter: [ SHAP ], <feature> feature: [ MFCC-13 ]> )"
+  },
+  {
+    "mr": "inform(model[CNN], classification[spoofed], spoof_type[replayed], interpreter[SHAP], feature[CQCC-7])",
+    "ref": [
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <model> model: [ CNN ], <classification> classification: [ spoofed ], <spoof_type> spoof type: [ replayed ], <interpreter> interpreter: [ SHAP ], <feature> feature: [ CQCC-7 ]> )"
+  },
+  {
+    "mr": "inform(interpreter[SHAP])",
+    "ref": [
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      "\"temp\"  \"temp\"",
+      "\"temp\"",
+      " \"temp\""
+    ],
+    "new_mr": "<inform> inform ( <interpreter> interpreter: [ SHAP ]> )"
+  }
+]

@@ -1,0 +1,9 @@
+<maximum>
+<shap_value>
+<request>
+<minimum>
+<detected_by>
+<spoof_type>
+<request_explaination>
+<verify_attribute>
+<detected>

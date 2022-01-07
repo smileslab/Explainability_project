@@ -1,0 +1,4 @@
+accurate
+hallucination
+repetition
+value_error

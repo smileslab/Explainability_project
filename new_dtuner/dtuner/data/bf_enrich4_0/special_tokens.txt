@@ -1,0 +1,7 @@
+<detected>
+<request>
+<detected_by>
+<request_explaination>
+<spoof_type>
+<shap_value>
+<verify_attribute>

@@ -1,0 +1,37 @@
+<shap_value>
+<maximum>
+<replay_order>
+<spoof_type>
+<determined>
+<extracted>
+<detected_by>
+<mic_type>
+<change_at>
+<task>
+<change_length>
+<informt>
+<speaker_id>
+<edit_type>
+<known_mic_signature>
+< classification>
+<model>
+<classified_by>
+<interpreter>
+<signal_start>
+<classification>
+<feature>
+<num_change>
+<speaker_length>
+<multi_microphone>
+<num_samples>
+<minimum>
+<mic_quantity>
+<general, detected_by>
+<speaker_quantity>
+<inform>
+<signal_length>
+<sample_start>
+<speaker_start>
+<edit_start>
+<response>
+<prupose>

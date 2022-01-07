@@ -1,0 +1,13 @@
+<number_of_coefficients>
+<number_of_delta_delta_coefficients>
+<detected>
+<shap_value>
+<informs_about>
+<verify_attribute>
+<spoof_type>
+<maximum>
+<detected_by>
+<minimum>
+<request>
+<request_explaination>
+<number_of_delta_coefficients>

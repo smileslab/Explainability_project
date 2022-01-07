@@ -1,0 +1,174 @@
+[
+    {
+        "mr": "request(detected[Spoofed],  spoof_type[Replayed])",
+        "ref": [
+            "Was the spoofed audio sample a Replayed sample?",
+            "Was the spoofed audio sample a Replayed sample?",
+            "Was Replayed the spoofing type of the spoofed audio?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ Spoofed ], <spoof_type> spoof_type: [ Replayed ]> )"
+    },
+    {
+        "mr": "veriy_attribute(detected[Spoofed], spoof_type[Replayed])",
+        "ref": [
+            "The spoofed audio sample was Replayed, were there any other spoof types?",
+            "The spoofed audio sample was Replayed, were there any other spoof types?",
+            "The spoofed audio sample was Replayed, what other spoofing methods were present?"
+        ],
+        "new_mr": "<veriy_attribute> veriy_attribute (<detected> detected: [ Spoofed ], <spoof_type> spoof_type: [ Replayed ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[Spoofed], spoof_type[Replayed])",
+        "ref": [
+            "How was the spoofed audio sample detected as a Replayed sample?",
+            "How was the spoofed audio classified as Replayed?",
+            "How was Replayed determined to be the spoof type of the audio sample?"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ Spoofed ], <spoof_type> spoof_type: [ Replayed ]> )"
+    },
+    {
+        "mr": "request(detected[Replayed], detected_by[MFCC-2], shap_value[0.0003])",
+        "ref": [
+            "was the Replayed audio sample detected by MFCC-2, with a shap value of 0.0003?",
+            "was MFCC-2, with a shap value of 0.0003, used to detect the audio sample as Replayed?",
+            "was the replated audio sample classified using MFCC-2, with a shap value of 0.0003?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ Replayed ], <detected_by> detected_by: [ MFCC-2 ], <shap_value> shap_value: [ 0.0003 ]> )"
+    },
+    {
+        "mr": "verify_attribute(detected[Replayed], detected_by[MFCC-2], shap_value[0.0003])",
+        "ref": [
+            "The Replayed audio sample was detected by MFCC-2, with a shap value of 0.0003, was the audio sample detected by other features?",
+            "MFCC-2, with a shap value of 0.0003, was used to determine that the audio sample was replayed, what other features were used?",
+            "MFCC-2, with a shap value of 0.0003, helped determine that the audio sample was replayed, what other features were used?"
+        ],
+        "new_mr": "<verify_attribute> verify_attribute (<detected> detected: [ Replayed ], <detected_by> detected_by: [ MFCC-2 ], <shap_value> shap_value: [ 0.0003 ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[Replayed], detected_by[MFCC-2], shap_value[0.0003])",
+        "ref": [
+            "How was MFCC-2, with a shap value of 0.0003, determined to have an impact on classifying the Replayed sample?",
+            "How did MFCC-2, with a shap value of 0.0003, help detect the Replayed sample?",
+            "How was the replayed audio determined by MFCC-2, with a shap value of 0.0003?"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ Replayed ], <detected_by> detected_by: [ MFCC-2 ], <shap_value> shap_value: [ 0.0003 ]> )"
+    },
+    {
+        "mr": "request(detected[Bonafide])",
+        "ref": [
+            "Was the audio sample a Bonafide sample?",
+            "Was Bonafide how the audio sample classified as?",
+            "Was the audio sample found to be a bonafide sample?",
+            "Was the audio sample classified as a bonafide sample?",
+            "Was the audio sample a Bonafide sample?",
+            "Was Bonafide how the audio sample classified as?",
+            "Was the audio sample found to be a bonafide sample?",
+            "Was the audio sample classified as a bonafide sample?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ Bonafide ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[Bonafide])",
+        "ref": [
+            "How was the audio sample detected as a Bonafide sample?",
+            "How was the audio classified as bonadide?",
+            "How was the audio sample found to be a Bonafide sample?",
+            "How was the audio sample classified as a Bonafide sample?",
+            "How was the audio sample detected as a Bonafide sample?",
+            "How was the audio classified as bonadide?",
+            "How was the audio sample found to be a Bonafide sample?",
+            "How was the audio sample classified as a Bonafide sample?"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ Bonafide ]> )"
+    },
+    {
+        "mr": "request(detected[Bonafide], detected_by[MSRCC-1], shap_value[0.0202])",
+        "ref": [
+            "was the Bonafide audio sample detected by MSRCC-1, with a shap value of 0.0202?",
+            "was the audio sample detected as bonafide by MSRCC-1, with a shap value of 0.0202?",
+            "was the audio sample found to be a bonafide sample by MSRCC-1, with a shap value of 0.0202?",
+            "was the audio sample classified as a bonafide sample by MSRCC-1, with a shap value of 0.0202?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ Bonafide ], <detected_by> detected_by: [ MSRCC-1 ], <shap_value> shap_value: [ 0.0202 ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[Bonafide], detected_by[MSRCC-1], shap_value[0.0202])",
+        "ref": [
+            "How was MSRCC-1, with a shap value of 0.0202, determined to impact the classification of the audio sample as bonafide?",
+            "How was the audio sample detected as bonafide by MSRCC-1, with a shap value of 0.0202?",
+            "How was the audio sample found to be a bonafide sample by MSRCC-1, with a shap value of 0.0202",
+            "How was the audio sample classified as a bonafide sample by MSRCC-1, with a shap value of 0.0202"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ Bonafide ], <detected_by> detected_by: [ MSRCC-1 ], <shap_value> shap_value: [ 0.0202 ]> )"
+    },
+    {
+        "mr": "request(detected[Bonafide], detected_by[PSRCC-3], shap_value[0.0423])",
+        "ref": [
+            "was the Bonafide audio sample detected by PSRCC-3, with a shap value of 0.0423?",
+            "was the audio sample detected as bonafide by PSRCC-3, with a shap value of 0.0423?",
+            "was the audio sample found to be a bonafide sample by PSRCC-3, with a shap value of 0.0423?",
+            "was the audio sample classified as a bonafide sample by PSRCC-3, with a shap value of 0.0423?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ Bonafide ], <detected_by> detected_by: [ PSRCC-3 ], <shap_value> shap_value: [ 0.0423 ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[Bonafide], detected_by[PSRCC-3], shap_value[0.0423])",
+        "ref": [
+            "How was PSRCC-3, with a shap value of 0.0423, determined to impact the classification of the audio sample as bonafide?",
+            "How was the audio sample detected as bonafide by PSRCC-3, with a shap value of 0.0423?",
+            "How was the audio sample found to be a bonafide sample by PSRCC-3, with a shap value of 0.0423",
+            "How was the audio sample classified as a bonafide sample by PSRCC-3, with a shap value of 0.0423"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ Bonafide ], <detected_by> detected_by: [ PSRCC-3 ], <shap_value> shap_value: [ 0.0423 ]> )"
+    },
+    {
+        "mr": "request(detected[5])",
+        "ref": [
+            "Was the audio sample of person 5?",
+            "Was the speaker in the audio sample of person 5?",
+            "Was the primary speaker in the audio sample of person 5?",
+            "Was person 5 the primary speaker of the audio sample?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ 5 ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[5])",
+        "ref": [
+            "How was the audio sample detected as being made by person 5?",
+            "How was the speaker identified as person 5?",
+            "How was primary speaker identified as person 5?",
+            "How was person 5 identified as the speaker?"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ 5 ]> )"
+    },
+    {
+        "mr": "request(detected[5], detected_by[GTCC-1], shap_value[0.6773])",
+        "ref": [
+            "was the audio sample made by person 5 detected by GTCC-1, with a shap value of 0.6773?",
+            "was the speaker person 5 detected by GTCC-1, with a shap value of 0.6773?",
+            "was the speaker person 5 detected by GTCC-1, with a shap value of 0.6773?",
+            "was the speaker person 5 detected by GTCC-1, with a shap value of 0.6773?"
+        ],
+        "new_mr": "<request> request (<detected> detected: [ 5 ], <detected_by> detected_by: [ GTCC-1 ], <shap_value> shap_value: [ 0.6773 ]> )"
+    },
+    {
+        "mr": "verify_attribute(detected[5], detected_by[GTCC-1], shap_value[0.6773])",
+        "ref": [
+            "The audio sample made by person 5 was detected by GTCC-1, with a shap value of 0.6773, was the audio sample detected by other features?",
+            "The primary speaker of the audio file was person 5, was the audio sample detected by GTCC-1, with a shap value of 0.6773?",
+            "The primary speaker of the audio file was person 5, was the audio sample detected by GTCC-1?",
+            "The primary speaker of the audio file was person 5, was the audio sample detected by GTCC-1, with a shap value of 0.6773?"
+        ],
+        "new_mr": "<verify_attribute> verify_attribute (<detected> detected: [ 5 ], <detected_by> detected_by: [ GTCC-1 ], <shap_value> shap_value: [ 0.6773 ]> )"
+    },
+    {
+        "mr": "request_explaination(detected[5], detected_by[GTCC-1], shap_value[0.6773])",
+        "ref": [
+            "How was the audio sample made by person 5 detected using GTCC-1, with a shap value of 0.6773?",
+            "How was GTCC-1, with a shap value of 0.6773, used to detect person 5 as the speaker of the audio sample?",
+            "How did 5 impact the detection of person GTCC-1, with a shap value of 0.6773, as the primary speaker in the audio?",
+            "How was person 5 detected as the speaker using GTCC-1, with a shap value of 0.6773?"
+        ],
+        "new_mr": "<request_explaination> request_explaination (<detected> detected: [ 5 ], <detected_by> detected_by: [ GTCC-1 ], <shap_value> shap_value: [ 0.6773 ]> )"
+    }
+]

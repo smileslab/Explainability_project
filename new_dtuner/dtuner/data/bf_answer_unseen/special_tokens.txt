@@ -1,0 +1,7 @@
+<spoof_type>
+<speaker_id>
+<model>
+<interpreter>
+<classification>
+<inform>
+<feature>
