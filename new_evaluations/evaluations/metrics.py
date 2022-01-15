@@ -34,16 +34,20 @@ def perplexity_calc(ref, gen, n=1):
     return sum(out_scores)/len(out_scores)
 
 
-def read_json(_dir):
-    fp = open(_dir, 'r')
+def read_json(dir):
+    fp = open(dir, 'r')
     data = pd.read_json(fp)
-    generated = data["ref         "]
-    original = data["original_ref"]
+    try:
+        generated = data["ref         "]
+        original = data["original_ref"]
+    except:
+        generated = data["text         "]
+        original = data["original_text"]
     return original, generated
 
 
-def calculate_scores(_dir, score_name):
-    original, generated = read_json(_dir)
+def calculate_scores(dir, score_name):
+    original, generated = read_json(dir)
     score = []
     for indx, orig in enumerate(original):
         if score_name == "perplexity":
@@ -53,13 +57,23 @@ def calculate_scores(_dir, score_name):
 
 if __name__ == "__main__":
     num_enrich = 5
-    version = "V1.3"
-    _base = "/Users/BradleyFrink/Desktop/Q-A generation outputs/{}/Questions/".format(version)
-    _dirs = ["unenriched_questions_generated_{}.json".format(version)]
+    version = "base_datasets"
+    _base = "/scratch/users/bfrink/new_dtuner/dtuner/"
+    _dirs = [
+                "output_e2e_DataTuner_No_FC/2022-01-14_23-31-00/generated.json",
+                "output_e2e_DataTuner_No_FC_No_FS/2022-01-14_19-08-23/generated.json",
+                "output_webnlg_DataTuner_No_FC/2022-01-14_23-31-20/generated.json",
+                "output_webnlg_DataTuner_No_FC_No_FS/2022-01-14_19-08-03/generated.json",
+                "output_viggo_data_DataTuner_No_FC_No_FS/2022-01-13_21-16-24/generated.json",
+                "output_frink_enrich1.5_-1_DataTuner_No_FC_No_FS/2022-01-14_12-06-55/generated.json"
+
+            ]
+    #_base = "/Users/BradleyFrink/Desktop/Q-A generation outputs/{}/Questions/".format(version)
+    #_dirs = ["unenriched_questions_generated_{}.json".format(version)]
     fp = open("score_{}.txt".format(version), "w+")
-    for i in range(num_enrich):
-        _dirs.append("enrich_{}_questions_generated_{}.json".format(i, version))
+    #for i in range(-1, num_enrich):
+    #    _dirs.append("enrich_{}_questions_generated_{}.json".format(i, version))
     for _dir in _dirs:
-        score = calculate_scores(_base+_dir, "perplexity")
+        score = calculate_scores(_base + _dir, "perplexity")
         temp = "{} : {}\n".format(_dir, sum(score)/len(score))
         fp.write(temp)
